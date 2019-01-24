@@ -1,5 +1,7 @@
 <h1>Укажите ваши данные</h1>
 
+
+
 <form action="set-cookie.php" method="POST" class="mb-50">
 	<label class="label-title">Ваше имя</label>
 	<input class="input" type="text" placeholder="" name="user-name"/>

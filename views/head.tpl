@@ -38,25 +38,36 @@
 		
 			<?php  if ( !isAdmin() ) { ?>
 
-			<a href="request.php" class="admin-nav__link">Указать информацию</a>
+			
 			<a href="login.php" class="admin-nav__link">Вход для админа</a>
+			
 
 			<?php } ?>
 
 
 			<?php  if ( isAdmin() ) { ?>
-
+							
+				<a href="request.php" class="admin-nav__link">Указать информацию</a>
 				<a href="logout.php" class="admin-nav__link">Выход</a>
-				
+
 			<?php }  ?>
 
 		</div>
 
-		<?php if ( isset($_COOKIE['user-name']) ) { ?>
+		<?php 
+
+		
+
+					if ( isset($_COOKIE['user-name']) )
+
+					 { ?>
+ 
 		<div class="mb-50">
 
 			<?php if ( isset($_COOKIE['user-city']) ) { ?>
+
 				Привет, <?=$_COOKIE['user-name']?> из <?=$_COOKIE['user-city']?>!
+
 			<?php } else { ?>
 				Привет, <?=$_COOKIE['user-name']?>!
 
@@ -64,7 +75,9 @@
 
 		</div>
 
-		<?php } ?>
+		<?php }	?>
+			
+		
 
 
 		

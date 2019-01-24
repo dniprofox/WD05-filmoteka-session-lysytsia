@@ -47,4 +47,3 @@
 </div>
 </div>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt at cumque eos nam ipsum fuga quam maxime fugit error porro?

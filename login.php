@@ -1,8 +1,11 @@
 <?php 
 
 
+
 require('config.php');
 require('functions/login-functions.php');
+
+
 
 
 if ( isset($_POST['enter']) ) {

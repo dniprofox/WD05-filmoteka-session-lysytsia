@@ -2,6 +2,8 @@
 
 
 <form action="login.php" method="POST" class="mb-50">
+
+	
 	
 	<label class="label-title">Логин</label>
 	<input class="input" type="text" placeholder="" name="login"/>
